@@ -1,0 +1,13 @@
+Index: imagewriter-1.10/imagewriter.desktop
+===================================================================
+--- imagewriter-1.10.orig/imagewriter.desktop
++++ imagewriter-1.10/imagewriter.desktop
+@@ -1,7 +1,7 @@
+ [Desktop Entry]
+ Type=Application
+ Categories=System;Utility;Archiving;
+-Exec=imagewriter %f
++Exec=kdesudo imagewriter %f
+ Icon=imagewriter
+ Name=SUSE Studio Imagewriter
+ GenericName=USB key writer
